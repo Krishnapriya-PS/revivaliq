@@ -1,26 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;700&display=swap');
-@media(max-width:505px){
-    #caroseldiv p{margin-left: 0px;
-        font-size: medium;}
-    #container2 #div2{
-        margin-top: 100px;
-    }
+ @media (max-width:767px){
+   #div1{ margin-bottom: 100px;}
 }
-@media(max-width:498px){
-    #container2 #div2{
-        margin-top: 100px;
+
+@media (max-width:480px){
+   #div1{margin-bottom: 155px;
     }
+    #div2 .girlimg{position: relative;left: -33px;}
+    
 }
-@media(max-width:390px){
-    #container2 #div2{
-        margin-top: 200px;
-    }
-}
-@media(max-width:350px){
-    #container2 #div2{
-        margin-top: 300px;
-    }
-}
+@media (max-width:360px){
+    #div1{margin-bottom: 210px;
+     }
+     #div2 .girlimg{position: relative;left: -55px;}
+
+ }
+ @media (max-width:320px){
+    #div1{margin-bottom: 330px;
+     }
+     #div2 .girlimg{position: relative;left: -75px;}
+ }
 #menu:hover{
     text-decoration: underline;
     color: #f8e9a1;
@@ -56,7 +55,7 @@ nav{background-color:black;}
 #caroseldiv p{
     margin-top:-400px ;
     font-weight: bolder;
-    font-size: 80px;
+    font-size: 6vw;
     font-family: 'Teko', sans-serif;
     letter-spacing: 3px;
 }
@@ -68,12 +67,11 @@ nav{background-color:black;}
     position: absolute;
     margin-top: -200px;
     font-weight: bolder;
-    font-size: 80px;
+    font-size: 6vw;
     font-family: 'Teko', sans-serif;
-    
 }
 .white-text-with-blue-shadow {
-    text-shadow: 1px 1px 2px black, 0 0 1em dodgerblue, 0 0 0.2em dodgerblue;
+    text-shadow: 1px 1px 2px black, 0 0 0.1em gray, 0 0 0.1em black;
     color: white;
     /* font: 1.5em Georgia, serif; */
   }
@@ -130,6 +128,7 @@ input{
 }
  #div1{
      height: 650px;
+    
  }
  #div2{
     height: 650px;
@@ -148,6 +147,9 @@ input{
 .girlimg{
     margin-top:30px;
     height: 550px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #container2 p{
@@ -349,6 +351,7 @@ footer{
 }
 footer #contact p a i{
     padding-right: 7px;
+    
 }
 
 
@@ -360,24 +363,29 @@ footer #contact p a i{
 #footerrow p{
     font-weight: 500;
     letter-spacing: 0.5;
-    text-shadow: 1px 1px 2px black, 0 0 1em dodgerblue, 0 0 0.2em dodgerblue;
+    text-shadow: 1px 1px 2px black, 0 0 .1em gray, 0 0 0.2em gray;
     color: white;
 }
 #footerrow h4{
     letter-spacing: 0.8;
     font-weight: bold;
     color:white;
-    text-shadow: 1px 1px 2px black, 0 0 1em dodgerblue, 0 0 0.2em dodgerblue;
+    text-shadow: 1px 1px 2px black, 0 0 .1em gray, 0 0 0.2em gray;
 
 }
 #footerrow #explore p:hover{
     padding-left: 10px;
+    text-decoration:underline;
 }
 #footerrow #help p:hover{
     padding-left: 10px;
+    text-decoration:underline;
+
 }
 #footerrow #contact p:hover{
     padding-left: 10px;
+    text-decoration:underline;
+
 }
 #mail{margin-left: 20px;}
  
